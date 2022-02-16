@@ -28,3 +28,28 @@ Now, update your information in the editor! Then, CTRL+X and ENTER to close.
 ``` shell
 python main.py
 ```
+## Known errors
+``` shell
+SyntaxError: Non-ASCII character '\xe2' in file main.py on line 125, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+```
+### Systems
+Raspberry Pi/Linux
+
+### Fix
+Change 
+``` shell
+emoji = "✅"
+```
+and 
+``` shell
+emoji = "❎"
+```
+to any text like 
+``` shell
+emoji = "Yes"
+```
+``` shell
+emoji = "No"
+```
+### Potential Fix (coming soon)
+Switch to emoji library for Python.
