@@ -29,7 +29,7 @@ Now, update your information in the editor! Then, CTRL+X and ENTER to close.
 python main.py
 ```
 ## Known errors
-``` shell
+``` python
 SyntaxError: Non-ASCII character '\xe2' in file main.py on line 125, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
 ```
 ### Systems
