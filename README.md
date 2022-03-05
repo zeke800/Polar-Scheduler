@@ -3,7 +3,7 @@
 Polrschd ported (more like rewritten, recycling a few parts) to run on python 3.7 and below. It also has extra features like station alignment, etc. Basically, predicts all the GAC transmissions for POES satellites. Slightly based on https://github.com/sgcderek/polrschd. All times and dates are in UTC! 
 
 ## Port status
-Everything is ported, except the orbital predictions. I am working on porting that.
+Everything is ported, except the orbital predictions. I am working on porting that. EDIT: Ephem gives some (very) wrong elevation numbers. After fighting with it, I have come to realize that Ephem hates me. 
 
 # FAQ
 
