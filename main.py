@@ -1,4 +1,3 @@
-#Note: Polar Scheduler version 0.3.1
 import secrets
 #########PARAMETERS START#######
 yourLat,yourLon,yourAlt,N2YO_api_key,liveNear = secrets.return_params()  # Enter your parameters in secrets.py!
