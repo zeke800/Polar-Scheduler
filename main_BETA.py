@@ -1,7 +1,7 @@
 import secrets
 #########PARAMETERS START#######
 yourLat,yourLon,yourAlt,N2YO_api_key,liveNear = secrets.return_params()  # Enter your parameters in secrets.py!
-minElevation = -2      # Minimum elevation of the GAC event (can be negative) NOT USED
+minElevation = -2      # Minimum elevation of the GAC event (can be negative) NOT USED EDIT: OH YES IT IS!
 #########PARAMETERS END#########
 import time
 from datetime import datetime
