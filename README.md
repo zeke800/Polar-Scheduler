@@ -29,6 +29,10 @@ Now, update your information in the editor! Then, CTRL+X and ENTER to close. Mak
 ``` shell
 python main.py
 ```
+If you are using the main_BETA.py file, install pyephem!
+``` shell
+pip install pyephem
+```
 ### Windows
 Download the repository from github. Open secrets.py in Notepad or Python IDLE. Run the main file through Python IDLE or 
 ``` shell
