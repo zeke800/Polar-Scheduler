@@ -1,6 +1,6 @@
 # Polar Scheduler
 ![thumbnail](https://github.com/zeke800/Polar-Scheduler/blob/main/promo.png?raw=true)
-Polrschd ported (more like rewritten, recycling a few parts) to run on python 3.7 and below. It also has extra features like station alignment, etc. Basically, predicts all the GAC transmissions for POES satellites. Original reverse engineering done here: https://github.com/sgcderek/polrschd. All times and dates are in UTC! 
+Polrschd ported (more like rewritten, recycling a few parts) to run on python 3.7 and below. It also has extra features like station alignment, etc. Basically, predicts all the GAC transmissions for POES satellites. Original reverse engineering done here: https://github.com/sgcderek/polrschd. **All dates and times are in UTC!**
 
 ## Port status
 Everything is ported, except the orbital predictions. I am working on porting that. EDIT: Ephem gives some (very) wrong elevation numbers. After fighting with it, I have come to realize that Ephem hates me. 
