@@ -1,3 +1,4 @@
+#This is the helpers.py file of Polar-Scheduler. This contains a function to get TLE lines. 
 import os
 def get_tle_lines(sat):
     tle = ""
