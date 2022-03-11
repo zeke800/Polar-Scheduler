@@ -19,15 +19,22 @@ An SDR capable of running at more than 4 MSPS (I was able to get a lock at 4MSPS
 ## Prerequisites
 An N2YO API key. Is currently needed, but isn't really used. Will be needed when I add support in the future.
 ## Install
+### Linux
 ``` shell
 git clone https://github.com/zeke800/Polar-Scheduler
 cd Polar-Scheduler
 nano secrets.py
 ```
-Now, update your information in the editor! Then, CTRL+X and ENTER to close. 
+Now, update your information in the editor! Then, CTRL+X and ENTER to close. Make sure to update the emojis as shown in the 'Known Errors' section. 
 ``` shell
 python main.py
 ```
+### Windows
+Download the repository from github. Open secrets.py in Notepad or Python IDLE. Run the main file through Python IDLE or 
+``` shell
+python main.py
+```
+You should not need to change any ASCII characters. If you do, refer to the next section. 
 ## Known errors
 ``` python
 SyntaxError: Non-ASCII character '\xe2' in file main.py on line 125, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
