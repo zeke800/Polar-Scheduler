@@ -2,6 +2,8 @@
 ![thumbnail](https://github.com/zeke800/Polar-Scheduler/blob/main/promo.png?raw=true)
 Polrschd ported (more like rewritten, recycling a few parts) to run on python 3.7 and below. It also has extra features like station alignment, dump location, etc. Basically, predicts all the GAC transmissions for POES satellites. Original reverse engineering done here: https://github.com/sgcderek/polrschd. **All dates and times are in UTC!**
 
+Also see https://github.com/zeke800/sat-tools
+
 ## Port status
 Everything is ported, except the orbital predictions. I am working on porting that. EDIT: Ephem gives some (very) wrong elevation numbers. After fighting with it, I have come to realize that the library Ephem hates me. I will soon post a **semi-working** code. I am not sure why Ephem says that all my pass degrees are negative... the main_BETA.py file also will contain a version that **does not** need an N2YO api key. If you have any idea WHY ephem does not work, please do not hesitate to reach out in the issues section on Github. 
 
