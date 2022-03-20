@@ -15,7 +15,7 @@ GAC is a dump-like downlink on NOAA POES satellites. It contains data collected 
 
 ## What do I need to receive it?
 
-An SDR capable of running at more than 4 MSPS (I was able to get a lock at 4MSPS), as well as a rather large dish. I tried it on my 80cm dish and got a barely-decodable result, however I've seen people receive it (with a little noise) on 70cm dishes. But my setup isn't great, either. 100-260cm dishes work fine. EDIT: I **was** able to decode it! Turns out, NOAA dumps backwards at my location 🤔. 
+An SDR capable of running at more than 4 MSPS (I was able to get a lock at 4MSPS, tried 3MSPS, didn't work), as well as a rather large dish. I tried it on my 80cm dish and got a barely-decodable result, however I've seen people receive it (with a little noise) on 70cm dishes. But my setup isn't great, either. 100-260cm dishes work fine. EDIT: I **was** able to decode it! Turns out, NOAA dumps backwards at my location 🤔. 
 
 # Install
 ## Prerequisites
